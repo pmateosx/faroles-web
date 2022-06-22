@@ -16,6 +16,12 @@ const Main = styled.main`
     min-width: 100vw;
   `
 
+const H1 = styled.h1`
+  width: 25rem;
+  text-align: center;
+  font-size: 4rem;
+`
+
 export default function Home() {
   return (
     <App>
@@ -25,9 +31,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <main>
-          <h1>Hi! 🤙</h1>
-      </main>
+      <Main>
+          <H1>Welcome to faroles TBR</H1>
+      </Main>
     </App>
   )
 }
